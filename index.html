@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Hiển thị alert từ input</title>
+</head>
+<body>
+  <input type="text" id="my-input">
+  <button type="button" onClick="showAlert()">Hiện alert</button>
+</body>
+<script>
+  function showAlert() {
+    const value = document.getElementById("my-input").value;
+    alert("Chúc mừng " + value + " đã đăng nhập thành công");
+  }
+</script>
+</html>
